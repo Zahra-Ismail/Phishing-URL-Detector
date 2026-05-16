@@ -1,12 +1,14 @@
-# Phishing URL Detector – Python dependencies
-# Core detector (detector.py) uses stdlib only – no extra packages needed.
+# Phishing URL Detector – Python Dependencies
+
+# Web Interface
+flask>=3.0.0
 
 # Testing
 pytest>=7.4.0
-
-# Optional: colourful pytest output
 pytest-sugar>=0.9.7
 
-# Optional: if you extend the tool with live WHOIS / threat-intel lookups
+# Optional: Live threat intelligence / WHOIS lookups
+# Uncomment if needed
+
 # requests>=2.31.0
 # python-whois>=0.8.0

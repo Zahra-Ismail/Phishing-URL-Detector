@@ -1,0 +1,20 @@
+# Sample URLs for testing the Phishing URL Detector
+# Run with: python detector.py -f data/sample_urls.txt
+
+# ── Likely Phishing ──────────────────────────────────────────────────────────
+http://paypa1-secure.tk/login/verify
+http://192.168.1.105/banking/signin
+http://apple-id-verify.ml/account/update?token=abc123
+https://secure.login.microsoft.account.update.malicious.com/auth
+http://bit.ly/3xAmp1e
+https://xn--pple-43d.com/id/verify
+
+# ── Borderline / Suspicious ──────────────────────────────────────────────────
+http://login-portal.somedomain.xyz/signin
+https://verify-account.top/user/confirm
+http://helpdesk-support.click/ticket/open
+
+# ── Likely Legitimate ────────────────────────────────────────────────────────
+https://www.google.com
+https://github.com/topics/cybersecurity
+https://docs.python.org/3/

@@ -1,0 +1,28 @@
+# Phishing URL Detector – Sample Blocklist
+# Format: one domain per line (no http/https, no trailing slash)
+# Source: curated sample for demonstration purposes only.
+# In production, replace/extend with feeds such as:
+#   PhishTank  – https://www.phishtank.com/
+#   OpenPhish  – https://openphish.com/
+#   URLhaus    – https://urlhaus.abuse.ch/
+
+paypa1-secure.tk
+apple-id-verify.ml
+microsoft-support-helpdesk.cf
+amazon-account-suspended.ga
+google-signin-verify.gq
+login-facebook-secure.tk
+netf1ix-billing-update.ml
+bankofamerica-secure-login.cf
+update-your-paypal.tk
+verify-account-ebay.ml
+icloud-account-recovery.ga
+steam-community-trade.cf
+discord-nitro-free.gq
+spotify-premium-free.tk
+wells-fargo-online-banking.ml
+chase-bank-secure-login.ga
+instagram-verify-account.cf
+twitter-support-helpdesk.tk
+linkedin-account-recovery.ml
+dropbox-file-shared.ga
